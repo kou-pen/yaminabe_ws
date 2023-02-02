@@ -4736,3 +4736,14 @@
 2023-02-01 16:49:37,517 [INFO] CADModel:164 - CPN selected for project levelSTM32F446RET6
 2023-02-01 16:49:37,517 [INFO] CADModel:113 - Register for checkConnection events
 2023-02-01 16:49:37,557 [INFO] OpenFileManager:327 - Restore cursor
+2023-02-01 18:18:39,202 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-02-01 18:18:45,551 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
+2023-02-01 18:18:45,561 [INFO] WebAppUi:462 - Profiles folder deleted
+2023-02-01 18:18:45,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-02 17:05:20,693 [INFO] Activator:179 - 
+
+
+2023-02-02 17:05:20,697 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 17:05:50,474 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 17:05:50,474 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 17:05:50,475 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

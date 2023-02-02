@@ -1,5 +1,6 @@
 #include <iostream>
 #include <libserial/SerialStream.h>
+#include <unistd.h>
 using namespace LibSerial ;
 
 int main(){
@@ -15,20 +16,16 @@ int main(){
     //const int BUFFERSIZE = 256;
     
     char my_message[2];
-    /*
-    int j;
-    for (int i = 0; i < 2; i++){
-        j = i + '0';
-        my_message[i] = j ;
-        
-    }*/
-    my_message[0] = '5';
-    my_message[1] = '7';
+
+    my_message[0] = '9';
+    my_message[1] = '5';
 
     //uint8_t my_messages = 5;
     //my_serial_stream << my_messages << std::endl ;
-    my_serial_stream.write(my_message,2);//char janaito error
-    
-    printf("sent message.\n");
+    for (int i = 0;i < 10;i++){
+        my_serial_stream.write(my_message,2);
+        printf("%d:sent message.\n",i);
+        sleep(3);
+    }
     my_serial_stream.Close();
 }

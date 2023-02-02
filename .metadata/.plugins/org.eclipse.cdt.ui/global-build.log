@@ -4448,3 +4448,353 @@ Finished building: default.size.stdout
  
 Finished building: uart_3.list
  
+18:13:48 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11692	     20	   1644	  13356	   342c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:11:51 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-size   uart_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11692	     20	   1644	  13356	   342c	uart_3.elf
+Finished building: default.size.stdout
+ 
+17:13:00 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-size   uart_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11692	     20	   1644	  13356	   342c	uart_3.elf
+Finished building: default.size.stdout
+ 
+17:14:28 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11692	     20	   1644	  13356	   342c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:16:17 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11704	     20	   1644	  13368	   3438	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:17:00 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11700	     20	   1644	  13364	   3434	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:18:01 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11700	     20	   1644	  13364	   3434	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:19:18 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11704	     20	   1644	  13368	   3438	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:21:14 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11716	     20	   1644	  13380	   3444	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:23:25 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11704	     20	   1644	  13368	   3438	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:24:36 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11716	     20	   1644	  13380	   3444	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:27:43 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11692	     20	   1644	  13356	   342c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:28:16 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11696	     20	   1644	  13360	   3430	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:28:53 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11692	     20	   1644	  13356	   342c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:29:39 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-size   uart_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11692	     20	   1644	  13356	   342c	uart_3.elf
+Finished building: default.size.stdout
+ 
+17:30:18 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11704	     20	   1644	  13368	   3438	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:30:53 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11708	     20	   1644	  13372	   343c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:33:37 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11708	     20	   1644	  13372	   343c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:34:32 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     20	   1644	  13384	   3448	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:36:03 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     20	   1644	  13384	   3448	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:36:27 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-size   uart_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11720	     20	   1644	  13384	   3448	uart_3.elf
+Finished building: default.size.stdout
+ 
+17:37:12 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11704	     20	   1644	  13368	   3438	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:37:48 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11708	     20	   1644	  13372	   343c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:38:35 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     20	   1644	  13384	   3448	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:40:18 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11724	     20	   1644	  13388	   344c	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:41:29 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     20	   1644	  13384	   3448	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 
+17:54:58 **** Incremental Build of configuration Debug for project uart_3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I/usr/include/c++ -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "uart_3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/kohki/Desktop/yaminabe_ws/uart_3/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: uart_3.elf
+ 
+arm-none-eabi-size   uart_3.elf 
+arm-none-eabi-objdump -h -S  uart_3.elf  > "uart_3.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     20	   1644	  13384	   3448	uart_3.elf
+Finished building: default.size.stdout
+ 
+Finished building: uart_3.list
+ 

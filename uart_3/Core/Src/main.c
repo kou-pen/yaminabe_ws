@@ -60,6 +60,7 @@ int gUartReceived = 0;
 #define BUFF_SIZE  (256)
 //uint16_t rcvLength;             /* 受信データ数 */
 uint8_t rcvBuffer[2];   /* 受信バッファ */
+uint8_t count =0;
 //uint8_t sndBuffer[BUFF_SIZE];
 //#define CHAR_CR  (0x0d)
 /* USER CODE END 0 */
@@ -105,25 +106,23 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1){
-	  	//int cast_buffer = rcvBuffer[4] - '0'; //筋肉cast
-
-
+	  HAL_UART_Receive_IT(&huart2, rcvBuffer, 2);
 	  	while (gUartReceived  == 0)
 	      {
-			;
+	  		;
 	      }
-	  	HAL_UART_Receive_IT(&huart2, rcvBuffer, 2);
+	  	//rcvBuffer[0] = '5'; //test code
+	  	count = rcvBuffer[1] - '0';
+	  	//count = 10; //test code
 
-	  	uint8_t count = rcvBuffer[0] - '0';
 		for(uint8_t q = 0 ; q < count ; q++){
 			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
-			HAL_Delay(500);
+			HAL_Delay(100);
 			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
-			HAL_Delay(500);
+			HAL_Delay(100);
 		}
+		HAL_UART_Receive_IT(&huart2, rcvBuffer, 2);
 	  	gUartReceived  = 0;
-	  	//rcvBuffer[0] = clear_val;
-
 
     /* USER CODE END WHILE */
 
@@ -261,6 +260,7 @@ static void MX_GPIO_Init(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) //受け取ると飛ぶやつ
 {
 	  gUartReceived = 1;
+	  HAL_UART_Receive_IT(&huart2, rcvBuffer, 2);
 
 }
 /* USER CODE END 4 */
